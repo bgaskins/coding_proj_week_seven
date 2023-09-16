@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link css file to index.html -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <header>
+        <img class="image" src="./assets/images/roadstand-logo.jpg" alt="Roadstand logo" id="logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>  
+        <div class="container" id="headers">
+            <h1>Contact the Crew</h1><br>   
+            <h3>help@roadstand.com</h3>
+            <p>999-555-9999</p>
+        </div> 
+
+        <hr>
+
+        <div class="container" id="contact">
+        <p>Leave a message:</p>  
+        <form action="submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="input-field" placeholder="Name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="input-field" placeholder="Email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea name="comment" form="message-form" class="input-field">Enter text here...</textarea>
+            <br>
+            <input class="button" type="submit" value="Submit">
+        </form>
+    </main>
+        <!-- Link js files to index.html -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
