@@ -1,3 +1,12 @@
+<!--
+    - At least 3 pages with links to navigate between all pages present on each page.
+    - 2 different size headers 
+    - a list
+    - 3 images
+    - a table
+    - a form
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,13 +14,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link css file to index.html -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Welcome</title>
+    <title>RoadstandApp</title>
   </head>
   <body>
+    <!--Roadstand logo-->
     <header>
         <img class="image" src="./assets/images/roadstand-logo.jpg" alt="Roadstand logo" id="logo">
     </header>
-
+    <!--Navbar with a list-->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -19,7 +29,7 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-
+    <!--Headers-->
     <main>  
         <div class="container" id="headers">
             <h1>Get an invite...</h1><br>   
@@ -27,7 +37,7 @@
             <p>Roadstand is an app that helps you locate nearby farm stands.</p><br>
         </div> 
 
-
+        <!--Email signup form-->
         <div class="container" id="signup">
         <h3>Sign up here:</h3>  
             <form action="submit" method="post">
@@ -41,11 +51,11 @@
             </form>
         </div>
     </main>
-
+    <!--Produce image-->
     <footer>
         <img class="image" src="./assets/images/tomato-peas-carrots.png" alt="Image of tomatoes, pease and carrots" id="produce">
     </footer>
-        <!-- Link js files to index.html -->
+    <!-- Link js files to index.html -->
     <script src="./js/index.js"></script>
   </body>
 </html>

@@ -40,7 +40,6 @@ li a:hover {
 
 /* HEADERS */
 
-
 h1 {
     margin-top:5;
     text-align: center;
@@ -59,6 +58,7 @@ p {
 
 
 /* LOGO */
+
 img {
     display: block;
     margin-left: auto;
@@ -132,6 +132,8 @@ table td {
     display: inline-block;
     font-size: 16px;
 }
+
+/* FOOTER */
 
 footer > img{
     width: 25%;
